@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto Mono;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-row: 10% 90%;
+  overflow: hidden;
+  background: #2E3440;
+  color: white;
+}
+#button {
+  border: 2px solid #2E3440;
+  margin-top: 20px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 260ms;
+  max-width: 100px;
+  height: 20px;
+  text-align: center;
+  margin-left: 5%;
+  background: #D8DEE9;
+  color: #2E3440;
+}
+#button:hover {
+  transform: scale(1.2);
+}
+#memes {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  overflow: scroll;
+  width: 100%;
+  padding: 10px;
+  margin-left: 10px;
+}
+#memes div {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 8px;
+  height: auto;
+  width: 250px;
+}
+#memes div h4 {
+  font: Helvetica;
+  padding: 5px;
+  text-align: center;
+  background: none;
+  color: white;
+  border-radius: 8px;
+  margin: 0;
+}
+img {
+  border: 2px solid #434C5E;
+  width: 250px;
+  height: 250px;
+  border-radius: 18px;
+  transition: 200ms;
+}
+img:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+}
+
+.title{
+  position: absolute;
+  margin-top: 15px;
+  left: 200px;
+}
+
+.fword{
+  color: #D08770;
+}
+
+.cword{
+  color: #BF616A;
+}
